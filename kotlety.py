@@ -1,0 +1,5 @@
+k = int(input("odnovremennoe kolichestvo kotlet na skovorode = "))
+m = int(input("vremya objarki odnoi storony = "))
+n = int(input("kolichestvo kotlet = "))
+a = int(n//k*m*2+n%k*m*2)
+print(a, "- vremya objarki vseh kotlet")
